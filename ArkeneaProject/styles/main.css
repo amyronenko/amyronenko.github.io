@@ -798,6 +798,7 @@ a{
     .module-header .logo {
         margin-top: 0;
         padding-left: 0;
+        display: flex;
     }
     .module-header ul.menu .list {
         font-size: 10px;
