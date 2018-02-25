@@ -24,7 +24,7 @@ var swiper = new Swiper('.swiper-container', {
             prevButton: false,
             slidesPerView: 1,
             spaceBetween: 10,
-            slidesPerGroup: 2
+            slidesPerGroup: 1
         },
         // when window width is <= 660px
         660: {
