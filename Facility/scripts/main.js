@@ -64,7 +64,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     new Swiper('.s_3', {
         slidesPerView: 3,
-        centeredSlides: true,
         spaceBetween: 40,
         nextButton: '.swiper-button-next_s_3',
         prevButton: '.swiper-button-prev_s_3',
