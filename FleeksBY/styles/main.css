@@ -196,7 +196,7 @@ small{
   display: flex;
 }
 @media (max-width: 412px){
-  .container {
+    article.article .container {
     width: 320px;
   }
 }
