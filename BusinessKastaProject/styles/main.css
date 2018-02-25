@@ -988,7 +988,9 @@ footer .hidden-lg{
 .efficiency {
   background-size: cover;
 }
-
+header.header div.phones>p{
+color: #ffffff;
+}
 
 @media screen and (min-width: 320px) {
   .grey-arrow{
