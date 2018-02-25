@@ -575,9 +575,7 @@ form button{
     .container{
         width: 14rem;
     }
-    #contact .container-width{
-        width: 100%;
-    }
+
     .video p{
         font-size: 10px;
     }
@@ -586,6 +584,11 @@ form button{
     }
     #news{
 
+    }
+}
+@media (max-width: 360px){
+    #contact .container-width{
+        width: 100%;
     }
 }
 @media (min-width: 375px){
