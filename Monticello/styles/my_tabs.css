@@ -1,0 +1,9 @@
+.title_link{
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+.title_first{
+  border-bottom: none;
+  background: #ffffff;
+}
