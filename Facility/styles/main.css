@@ -460,12 +460,17 @@ h4{
     }
 
 }
+@media (min-width : 1200px){
+    .swiper-slide .img-mini {
+        height: 200px;
+    }
+}
 @media (min-width: 1300px){
     .container {
         width: 1070px;
     }
 }
-@media only screen and (min-width : 1300px) {
+@media (min-width : 1300px) {
 
     .s_1{
         height: 650px;
