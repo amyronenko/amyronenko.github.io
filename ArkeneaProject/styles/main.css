@@ -318,9 +318,13 @@ a{
         display: flex;
         align-items: center;
         flex-direction: column;
+        padding: 0 200px;
     }
-    .module-pictures .card .card-thumb{
-        width: 290px;
+    /*.module-pictures .card .card-thumb{*/
+        /*width: 290px;*/
+    /*}*/
+    .module-pictures .indent-x {
+        padding: 0;
     }
 }
 @media screen and (min-width: 768px){
