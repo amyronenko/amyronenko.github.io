@@ -487,11 +487,11 @@ h4{
         height: 300px;
     }
     .mini-slider .swiper-button-next_s_3 {
-        right: -40px;
+        right: -70px;
         top: 25%;
     }
     .mini-slider .swiper-button-prev_s_3 {
-        left: -40px;
+        left: -70px;
         top: 25%;
     }
 }
