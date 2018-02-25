@@ -57,7 +57,12 @@ document.addEventListener("DOMContentLoaded", function () {
     new Swiper('.s_2', {
         nextButton: '.swiper-button-next_s_2',
         prevButton: '.swiper-button-prev_s_2',
-        loop: true
+        loop: true,
+        breakpoints: {
+            576:{
+                nextButton: false,
+                prevButton: false
+            }
     });
 
     new Swiper('.s_3', {
