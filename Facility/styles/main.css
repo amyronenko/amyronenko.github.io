@@ -282,6 +282,18 @@ h4{
     }
 }
 /* Small Devices, Tablets */
+@media (max-width : 576px){
+    .swiper-button-next_s_2,
+    .swiper-button-prev_s_2{
+        display: none;
+    }
+}
+@media (min-width : 576px){
+    .swiper-button-next_s_2,
+    .swiper-button-prev_s_2{
+        display: block;
+    }
+}
 @media only screen and (min-width : 768px) {
     h1{
         margin-bottom: 30px;
@@ -428,7 +440,6 @@ h4{
     }
 
 }
-
 @media only screen and (min-width : 1500px) {
 
     .container{
