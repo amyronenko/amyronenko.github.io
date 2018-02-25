@@ -315,8 +315,8 @@ a{
 .margin-top{
 	margin-top: 80px;
 }
-#module-slider .swiper-wrapper>.swiper-slide{
-	width: 100%;
+.swiper-slide{
+	width: 3000px;
 }
 
 @media screen and (min-width: 768px){
