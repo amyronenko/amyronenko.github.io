@@ -478,9 +478,9 @@ h4{
 }
 @media only screen and (min-width : 1500px) {
 
-    .container{
-        width: 48rem;
-    }
+    /*.container{*/
+        /*width: 48rem;*/
+    /*}*/
     .container-width{
         width: 35rem;
     }
