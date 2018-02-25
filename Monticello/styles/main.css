@@ -573,7 +573,7 @@ form button{
         font-size: 14px;
     }
     .container{
-        width: 14rem;
+        width: 100%;
     }
     .video p{
         font-size: 10px;
