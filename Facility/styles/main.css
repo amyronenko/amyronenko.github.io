@@ -307,6 +307,11 @@ h4{
         width: 470px;
     }
 }
+@media (min-width: 1300px){
+    .container {
+        width: 1070px;
+    }
+}
 @media (max-width : 1500px){
     .mini-slider .swiper-button-next_s_3 {
         right: -40px;
