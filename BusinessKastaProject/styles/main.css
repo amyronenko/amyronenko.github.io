@@ -2405,7 +2405,7 @@ footer .hidden-lg{
 }
 @media (max-width: 670px){
     .header .h1 {
-        font-size: 0.7rem;
+      font-size: 1.5rem;
     }
 }
 

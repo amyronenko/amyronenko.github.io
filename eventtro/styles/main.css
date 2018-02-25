@@ -497,7 +497,6 @@ figure + figure{
 	margin: 0 0 20px;
 	border: solid 1px #000000;
 }
-
 .video{
 	width: 100%;
 	height: 100%;
@@ -547,7 +546,6 @@ figure + figure{
 	font-size: 12px;
 	font-weight: 100;
 }
-
 @media screen and (min-width: 375px){
 
 	.photo{
@@ -560,7 +558,6 @@ figure + figure{
 		height: 180px;
 	}
 }
-
 @media screen and (min-width: 768px){
 	/*.container{*/
 		/*width: 48rem;*/
@@ -712,7 +709,6 @@ figure + figure{
 		height: 230px;
 	}
 }
-
 @media screen and (min-width: 1098px) {
 	/*.container{*/
 		/*width: 76rem;*/
