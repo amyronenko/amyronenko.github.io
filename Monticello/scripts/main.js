@@ -22,7 +22,7 @@ var swiper = new Swiper('.swiper-container', {
         480: {
             nextButton: false,
             prevButton: false,
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 10,
             slidesPerGroup: 2
         },
