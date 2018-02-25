@@ -785,6 +785,24 @@ a{
 		bottom: 50px;
 	}
 }
+@media (min-width: 1098px) and (max-width:1300px){
+    .module-header div.logo img{
+        width: 100%;
+    }
+    .module-header .menu{
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .module-header .logo {
+        margin-top: 0;
+        padding-left: 0;
+    }
+    .module-header ul.menu .list {
+        font-size: 10px;
+    }
+}
 @media (min-width: 1150px){
     .form-input+.form-input{
         margin-left: 0;
