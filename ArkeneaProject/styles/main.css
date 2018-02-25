@@ -560,6 +560,12 @@ a{
     .module-header {
         height: 750px;
     }
+    form.form .form-input{
+        width: 100%;
+    }
+    .form-input + .form-input{
+        margin-left: 0;
+    }
 }
 @media screen and (min-width: 1098px) {
 	/*.container{*/
