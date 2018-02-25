@@ -1111,6 +1111,21 @@ form button{
         font-family: "GothamProLight", sans-serif;
     }
 }
+
+@media (max-width: 768px){
+    #gallery-container .pad-b-r-mobile {
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 510px){
+    #gallery-container .pad-b-r-mobile {
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 5px;
+    }
+}
 @media (max-width: 800px){
     .s-network{
         height: 25px;
