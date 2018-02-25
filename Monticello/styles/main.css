@@ -1111,7 +1111,13 @@ form button{
         font-family: "GothamProLight", sans-serif;
     }
 }
+@media (max-width: 800px){
+    .s-network{
+        height: 25px;
+        width: 17px;
+    }
 
+}
 @media (min-width: 1024px){
     .box-container{
         width: 420px;
