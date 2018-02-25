@@ -315,7 +315,7 @@ a{
 .margin-top{
 	margin-top: 80px;
 }
-#module-slider .swiper-slide{
+#module-slider .swiper-wrapper>.swiper-slide{
 	width: 100%;
 }
 
