@@ -281,6 +281,11 @@ h4{
         width: 300px;
     }
 }
+@media (min-width : 514px) and (max-width:812px){
+    .container {
+        width: 470px;
+    }
+}
 /* Small Devices, Tablets */
 @media (max-width : 768px){
     .swiper-button-next_s_2,
