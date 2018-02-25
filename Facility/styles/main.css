@@ -293,6 +293,9 @@ h4{
     .mini-slider.container{
         width: 12rem;
     }
+    .s_2 .swiper-pagination-bullets{
+        bottom: 105px;
+    }
 }
 /*@media (min-width : 576px){*/
    /**/
