@@ -819,7 +819,7 @@ a{
 }
 @media screen and (min-width: 1400px){
 	.container{
-		width: 58rem;
+        width: 1240px;
 	}
 	.card-thumb{
 		height: 320px;
