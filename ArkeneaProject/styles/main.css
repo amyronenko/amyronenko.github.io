@@ -556,6 +556,11 @@ a{
 		height: 200px;
 	}
 }
+@media (min-width: 812px) and (max-width: 1000px){
+    .module-header {
+        height: 750px;
+    }
+}
 @media screen and (min-width: 1098px) {
 	.container{
 		width: 60rem;
