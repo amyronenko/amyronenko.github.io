@@ -1324,3 +1324,18 @@ form button{
     }
 
 }
+@media (min-width: 1200px) and (max-width: 1366px){
+    #about_us .cards_wrap .video p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #about_us .cards_wrap {
+        width: 54%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1300px){
+    .logo {
+        height: 25px;
+        width: 100px;
+    }
+}
