@@ -287,12 +287,11 @@ h4{
     .swiper-button-prev_s_2{
         display: none;
     }
-
-    .container.hidden-l.block-margin{
-        width: 12rem;
-    }
     .container {
         width: 315px;
+    }
+    .mini-slider.container{
+        width: 12rem;
     }
 }
 @media (min-width : 576px){
