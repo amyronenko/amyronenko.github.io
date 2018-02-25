@@ -2376,9 +2376,9 @@ footer .hidden-lg{
     }
 
 }
-@media (min-width: 1900px){
+@media (min-width: 1500px){
   .container {
-    width: 49rem;
+   width: 1240px;
   }
 }
 @media screen and (min-width: 1500px){
