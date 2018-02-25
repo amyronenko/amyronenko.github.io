@@ -60,8 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 nextButton: false,
                 prevButton: false
             },
-            nextButton: '.swiper-button-next_s_2',
-            prevButton: '.swiper-button-prev_s_2',
+            // nextButton: '.swiper-button-next_s_2',
+            // prevButton: '.swiper-button-prev_s_2',
             loop: true
 
     });
