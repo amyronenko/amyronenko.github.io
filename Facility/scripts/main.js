@@ -58,6 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
         nextButton: '.swiper-button-next_s_2',
         prevButton: '.swiper-button-prev_s_2',
         loop: true,
+        pagination: '.swiper-pagination',
         paginationClickable: true
     });
 
