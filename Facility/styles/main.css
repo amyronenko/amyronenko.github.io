@@ -299,11 +299,11 @@ h4{
 }
 @media (max-width : 1500px){
     .mini-slider .swiper-button-next_s_3 {
-        right: -5.5%;
+        right: -40px;;
         top: 25%;
     }
     .mini-slider .swiper-button-prev_s_3 {
-        left: -5.5%;
+        left: -40px;;
         top: 25%;
     }
     .mini-slider .swiper-button-next_s_3::before,
