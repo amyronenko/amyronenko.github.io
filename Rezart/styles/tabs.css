@@ -1,0 +1,50 @@
+.tabs{
+  overflow:hidden;
+  clear:both;
+}
+.tabs ul{
+  list-style-type:none;
+  position:relative;
+}
+.tabs li{
+  float:left;
+}
+.tabs a{
+  color: #000;
+  text-decoration: none;
+}
+.tabs a.active{
+  background-color: #fff;
+}
+.tabs section{
+  clear: both;
+  padding:5px;
+  font-size:13px;
+  display:none;
+}
+.another_tabs{
+  overflow:hidden;
+  clear:both;
+
+}
+.another_tabs ul{
+  list-style-type:none;
+  position:relative;
+}
+.another_tabs li{
+  float:left;
+}
+
+.another_tabs a{
+  color: #000;
+  text-decoration: none;
+}
+.another_tabs a.active{
+  background-color: #fff;
+}
+.another_tabs section{
+  clear: both;
+  padding:5px;
+  font-size:13px;
+  display:none;
+}

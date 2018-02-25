@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/swiper.css">
+  <link rel="stylesheet" href="styles/flexboxgrid.min.css">
+    <link rel="stylesheet" href="styles/lightbox.css">
+  <link rel="stylesheet" href="styles/accordion.css">
+  <link rel="stylesheet" href="styles/tabs.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <header id="header">
+      <nav class="sticky_nav">
+        <div class="container">
+          <div class="row center-xs start-sm middle-sm">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <div class="logo"></div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              <ul class="menu" id="menu">
+                <li><a class="link" href="#header">Home</a></li>
+                <li><a class="link" href="#services">Services</a></li>
+                <li><a class="link" href="#portfolio">Portfolio</a></li>
+                <li class="dropdown_click">
+                    Blog
+                    <ul class="dropdown_content blog">
+                        <li class="dropdown_item">dropdown</li>
+                        <li class="dropdown_item">dropdown</li>
+                        <li class="dropdown_item">dropdown</li>
+                        <li class="dropdown_item">dropdown</li>
+                        <li class="dropdown_item">dropdown</li>
+                    </ul>
+                </li>
+                <li class="dropdown_click">
+                    Contact
+                    <ul class="dropdown_content contact">
+                        <li class="dropdown_item">dropdown</li>
+                        <li class="dropdown_item">dropdown</li>
+                        <li class="dropdown_item">dropdown</li>
+                    </ul>
+                </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="slider">
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="swiper_image" src="images/blue_11.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img class="swiper_image" src="images/brown_03.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img class="swiper_image" src="images/green_07.png" alt="">
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="container content">
+          <div class="row start-sm">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="title">This Template is Awesome!</h1>
+                <p class="text">In has brute virtute, mundi facete perfecto ius ne. Cu tota evertitur necessitatibus nec.
+                  Ei quo rebum zril electram, accusata iracundia ei his. Ad qui recusabo deseruisse, cu per odio nihil.
+                  Eu vide mucius mei. Maiorum tractatos instructior ut eos, graece graecis vix an, consul impetus
+                  mediocrem an his. Possit pericula argumentum vix ex.</p>
+                <button class="btn" id="popup_trigger">read more</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container container-padding services" id="services">
+        <div class="row center-xs">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-margin design">
+            <div class="image"></div>
+            <h3>Flat Design</h3>
+              <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-margin ideas">
+            <div class="image"></div>
+            <h3>Great Ideas</h3>
+              <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-margin compatibility">
+            <div class="image"></div>
+            <h3>Browser  Compatibility</h3>
+              <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere.</p>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio" id="portfolio">
+        <div class="container container-padding">
+          <div class="row center-xs">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h2 class="uppercase">Recent Templates</h2>
+              <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et quam est. Mauris faucibus tellus ac auctor posuere. </p>
+            </div>
+          </div>
+          <div class="tabs">
+            <div class="row center-xs row-margin">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+                <ul class="list tabs__nav">
+                  <li><a href="#tab1" class="active">Duo eu</a></li>
+                  <li><a href="#tab2">noster</a></li>
+                  <li><a href="#tab3">quaeque</a></li>
+                  <li><a href="#tab4">delicata</a></li>
+                  <li><a href="#tab5">aliquando</a></li>
+                </ul>
+              </div>
+            </div>
+              <section id="tab1">
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox1_03.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox2_05.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox3_07.jpg" alt="" data-jslghtbx>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox4_12.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox5_13.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox6_14.jpg" alt="" data-jslghtbx>
+                  </div>
+                </div>
+              </section>
+              <section id="tab2">
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox4_12.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox1_03.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox2_05.jpg" alt="" data-jslghtbx>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox2_05.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox6_14.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox1_03.jpg" alt="" data-jslghtbx>
+                  </div>
+                </div>
+              </section>
+              <section id="tab3">
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox3_07.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox4_12.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox2_05.jpg" alt="" data-jslghtbx>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox2_05.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox1_03.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox4_12.jpg" alt="" data-jslghtbx>
+                  </div>
+                </div>
+              </section>
+              <section id="tab4">
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox3_07.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox4_12.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox2_05.jpg" alt="" data-jslghtbx>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox2_05.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox1_03.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox4_12.jpg" alt="" data-jslghtbx>
+                  </div>
+                </div>
+              </section>
+              <section id="tab5">
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox3_07.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox4_12.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox2_05.jpg" alt="" data-jslghtbx>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox2_05.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox1_03.jpg" alt="" data-jslghtbx>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 margin-top">
+                    <img class="image" src="images/lightbox4_12.jpg" alt="" data-jslghtbx>
+                  </div>
+                </div>
+              </section>
+          </div>
+          <div class="another_tabs hidden">
+            <div class="row center-xs row-margin">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+                <ul class="list tabs__nav">
+                  <li><a href="#tab6" class="active">Duo eu</a></li>
+                  <li><a href="#tab7">noster</a></li>
+                  <li><a href="#tab8">quaeque</a></li>
+                  <li><a href="#tab9">delicata</a></li>
+                  <li><a href="#tab10">aliquando</a></li>
+                </ul>
+              </div>
+            </div>
+            <section id="tab6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top">
+                  <div class="ia-container">
+                    <figure>
+                      <img src="images/lightbox4_12.jpg" alt="image01" />
+                      <input type="radio" name="radio-set" checked="checked"/>
+
+                      <figure>
+                        <img src="images/lightbox2_05.jpg" alt="image02" />
+                        <input type="radio" name="radio-set" />
+
+                        <figure>
+                          <img src="images/lightbox3_07.jpg" alt="image03" />
+                          <input type="radio" name="radio-set" />
+
+                          <figure>
+                            <img src="images/lightbox5_13.jpg" alt="image04" />
+                            <input type="radio" name="radio-set" />
+
+                            <figure>
+                              <img src="images/lightbox3_07.jpg" alt="image05" />
+                              <input type="radio" name="radio-set" />
+
+                              <figure>
+                                <img src="images/lightbox1_03.jpg" alt="image06" />
+                                <input type="radio" name="radio-set" />
+
+                                <figure>
+                                  <img src="images/lightbox6_14.jpg" alt="image07" />
+                                  <input type="radio" name="radio-set" />
+
+                                  <figure>
+                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                    <input type="radio" name="radio-set" />
+                                    <figure>
+                                      <img src="images/lightbox3_07.jpg" alt="image09" />
+                                      <input type="radio" name="radio-set" />
+                                      <figure>
+                                        <img src="images/lightbox3_07.jpg" alt="image10" />
+                                        <input type="radio" name="radio-set" />
+                                        <figure>
+                                          <img src="images/lightbox3_07.jpg" alt="image11" />
+                                          <input type="radio" name="radio-set" />
+                                          <figure>
+                                            <img src="images/lightbox3_07.jpg" alt="image12" />
+                                            <input type="radio" name="radio-set" />
+                                            <figure>
+                                              <img src="images/lightbox3_07.jpg" alt="image13" />
+                                              <input type="radio" name="radio-set" />
+                                              <figure>
+                                                <img src="images/lightbox3_07.jpg" alt="image14" />
+                                                <input type="radio" name="radio-set" />
+                                                <figure>
+                                                  <img src="images/lightbox3_07.jpg" alt="image15" />
+                                                  <input type="radio" name="radio-set" />
+                                                  <figure>
+                                                    <img src="images/lightbox3_07.jpg" alt="image16" />
+                                                    <input type="radio" name="radio-set" />
+                                                    <figure>
+                                                      <img src="images/lightbox3_07.jpg" alt="image17" />
+                                                      <input id="ia-selector-last3" type="radio" name="radio-set" />
+                                                    </figure>
+                                                  </figure>
+                                                </figure>
+                                              </figure>
+                                            </figure>
+                                          </figure>
+                                        </figure>
+                                      </figure>
+                                    </figure>
+                                  </figure>
+
+                                </figure>
+
+                              </figure>
+
+                            </figure>
+
+                          </figure>
+
+                        </figure>
+
+                      </figure>
+
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top">
+                  <div class="ia-container">
+                    <figure>
+                      <img src="images/lightbox4_12.jpg" alt="image01" />
+                      <input type="radio" name="radio-set" checked="checked"/>
+
+                      <figure>
+                        <img src="images/lightbox2_05.jpg" alt="image02" />
+                        <input type="radio" name="radio-set" />
+
+                        <figure>
+                          <img src="images/lightbox3_07.jpg" alt="image03" />
+                          <input type="radio" name="radio-set" />
+
+                          <figure>
+                            <img src="images/lightbox5_13.jpg" alt="image04" />
+                            <input type="radio" name="radio-set" />
+
+                            <figure>
+                              <img src="images/lightbox3_07.jpg" alt="image05" />
+                              <input type="radio" name="radio-set" />
+
+                              <figure>
+                                <img src="images/lightbox1_03.jpg" alt="image06" />
+                                <input type="radio" name="radio-set" />
+
+                                <figure>
+                                  <img src="images/lightbox6_14.jpg" alt="image07" />
+                                  <input type="radio" name="radio-set" />
+
+                                  <figure>
+                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                    <input type="radio" name="radio-set" />
+                                    <figure>
+                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                      <input type="radio" name="radio-set" />
+                                      <figure>
+                                        <img src="images/lightbox3_07.jpg" alt="image08" />
+                                        <input type="radio" name="radio-set" />
+                                        <figure>
+                                          <img src="images/lightbox3_07.jpg" alt="image08" />
+                                          <input type="radio" name="radio-set" />
+                                          <figure>
+                                            <img src="images/lightbox3_07.jpg" alt="image08" />
+                                            <input type="radio" name="radio-set" />
+                                            <figure>
+                                              <img src="images/lightbox3_07.jpg" alt="image08" />
+                                              <input type="radio" name="radio-set" />
+                                              <figure>
+                                                <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                <input type="radio" name="radio-set" />
+                                                <figure>
+                                                  <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                  <input type="radio" name="radio-set" />
+                                                  <figure>
+                                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                    <input type="radio" name="radio-set" />
+                                                    <figure>
+                                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                      <input id="ia-selector-last12" type="radio" name="radio-set" />
+                                                    </figure>
+                                                  </figure>
+                                                </figure>
+                                              </figure>
+                                            </figure>
+                                          </figure>
+                                        </figure>
+                                      </figure>
+                                    </figure>
+                                  </figure>
+
+                                </figure>
+
+                              </figure>
+
+                            </figure>
+
+                          </figure>
+
+                        </figure>
+
+                      </figure>
+
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="tab7">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top">
+                  <div class="ia-container">
+                    <figure>
+                      <img src="images/lightbox4_12.jpg" alt="image01" />
+                      <input type="radio" name="radio-set" checked="checked"/>
+
+                      <figure>
+                        <img src="images/lightbox2_05.jpg" alt="image02" />
+                        <input type="radio" name="radio-set" />
+
+                        <figure>
+                          <img src="images/lightbox3_07.jpg" alt="image03" />
+                          <input type="radio" name="radio-set" />
+
+                          <figure>
+                            <img src="images/lightbox5_13.jpg" alt="image04" />
+                            <input type="radio" name="radio-set" />
+
+                            <figure>
+                              <img src="images/lightbox3_07.jpg" alt="image05" />
+                              <input type="radio" name="radio-set" />
+
+                              <figure>
+                                <img src="images/lightbox1_03.jpg" alt="image06" />
+                                <input type="radio" name="radio-set" />
+
+                                <figure>
+                                  <img src="images/lightbox6_14.jpg" alt="image07" />
+                                  <input type="radio" name="radio-set" />
+
+                                  <figure>
+                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                    <input type="radio" name="radio-set" />
+                                    <figure>
+                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                      <input type="radio" name="radio-set" />
+                                      <figure>
+                                        <img src="images/lightbox3_07.jpg" alt="image08" />
+                                        <input type="radio" name="radio-set" />
+                                        <figure>
+                                          <img src="images/lightbox3_07.jpg" alt="image08" />
+                                          <input type="radio" name="radio-set" />
+                                          <figure>
+                                            <img src="images/lightbox3_07.jpg" alt="image08" />
+                                            <input type="radio" name="radio-set" />
+                                            <figure>
+                                              <img src="images/lightbox3_07.jpg" alt="image08" />
+                                              <input type="radio" name="radio-set" />
+                                              <figure>
+                                                <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                <input type="radio" name="radio-set" />
+                                                <figure>
+                                                  <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                  <input type="radio" name="radio-set" />
+                                                  <figure>
+                                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                    <input type="radio" name="radio-set" />
+                                                    <figure>
+                                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                      <input id="ia-selector-last4" type="radio" name="radio-set" />
+                                                    </figure>
+                                                  </figure>
+                                                </figure>
+                                              </figure>
+                                            </figure>
+                                          </figure>
+                                        </figure>
+                                      </figure>
+                                    </figure>
+                                  </figure>
+
+                                </figure>
+
+                              </figure>
+
+                            </figure>
+
+                          </figure>
+
+                        </figure>
+
+                      </figure>
+
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top">
+                  <div class="ia-container">
+                    <figure>
+                      <img src="images/lightbox4_12.jpg" alt="image01" />
+                      <input type="radio" name="radio-set" checked="checked"/>
+
+                      <figure>
+                        <img src="images/lightbox2_05.jpg" alt="image02" />
+                        <input type="radio" name="radio-set" />
+
+                        <figure>
+                          <img src="images/lightbox3_07.jpg" alt="image03" />
+                          <input type="radio" name="radio-set" />
+
+                          <figure>
+                            <img src="images/lightbox5_13.jpg" alt="image04" />
+                            <input type="radio" name="radio-set" />
+
+                            <figure>
+                              <img src="images/lightbox3_07.jpg" alt="image05" />
+                              <input type="radio" name="radio-set" />
+
+                              <figure>
+                                <img src="images/lightbox1_03.jpg" alt="image06" />
+                                <input type="radio" name="radio-set" />
+
+                                <figure>
+                                  <img src="images/lightbox6_14.jpg" alt="image07" />
+                                  <input type="radio" name="radio-set" />
+
+                                  <figure>
+                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                    <input type="radio" name="radio-set" />
+                                    <figure>
+                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                      <input type="radio" name="radio-set" />
+                                      <figure>
+                                        <img src="images/lightbox3_07.jpg" alt="image08" />
+                                        <input type="radio" name="radio-set" />
+                                        <figure>
+                                          <img src="images/lightbox3_07.jpg" alt="image08" />
+                                          <input type="radio" name="radio-set" />
+                                          <figure>
+                                            <img src="images/lightbox3_07.jpg" alt="image08" />
+                                            <input type="radio" name="radio-set" />
+                                            <figure>
+                                              <img src="images/lightbox3_07.jpg" alt="image08" />
+                                              <input type="radio" name="radio-set" />
+                                              <figure>
+                                                <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                <input type="radio" name="radio-set" />
+                                                <figure>
+                                                  <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                  <input type="radio" name="radio-set" />
+                                                  <figure>
+                                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                    <input type="radio" name="radio-set" />
+                                                    <figure>
+                                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                      <input id="ia-selector-last11" type="radio" name="radio-set" />
+                                                    </figure>
+                                                  </figure>
+                                                </figure>
+                                              </figure>
+                                            </figure>
+                                          </figure>
+                                        </figure>
+                                      </figure>
+                                    </figure>
+                                  </figure>
+
+                                </figure>
+
+                              </figure>
+
+                            </figure>
+
+                          </figure>
+
+                        </figure>
+
+                      </figure>
+
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="tab8">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top">
+                  <div class="ia-container">
+                    <figure>
+                      <img src="images/lightbox4_12.jpg" alt="image01" />
+                      <input type="radio" name="radio-set" checked="checked"/>
+
+                      <figure>
+                        <img src="images/lightbox2_05.jpg" alt="image02" />
+                        <input type="radio" name="radio-set" />
+
+                        <figure>
+                          <img src="images/lightbox3_07.jpg" alt="image03" />
+                          <input type="radio" name="radio-set" />
+
+                          <figure>
+                            <img src="images/lightbox5_13.jpg" alt="image04" />
+                            <input type="radio" name="radio-set" />
+
+                            <figure>
+                              <img src="images/lightbox3_07.jpg" alt="image05" />
+                              <input type="radio" name="radio-set" />
+
+                              <figure>
+                                <img src="images/lightbox1_03.jpg" alt="image06" />
+                                <input type="radio" name="radio-set" />
+
+                                <figure>
+                                  <img src="images/lightbox6_14.jpg" alt="image07" />
+                                  <input type="radio" name="radio-set" />
+
+                                  <figure>
+                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                    <input type="radio" name="radio-set" />
+                                    <figure>
+                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                      <input type="radio" name="radio-set" />
+                                      <figure>
+                                        <img src="images/lightbox3_07.jpg" alt="image08" />
+                                        <input type="radio" name="radio-set" />
+                                        <figure>
+                                          <img src="images/lightbox3_07.jpg" alt="image08" />
+                                          <input type="radio" name="radio-set" />
+                                          <figure>
+                                            <img src="images/lightbox3_07.jpg" alt="image08" />
+                                            <input type="radio" name="radio-set" />
+                                            <figure>
+                                              <img src="images/lightbox3_07.jpg" alt="image08" />
+                                              <input type="radio" name="radio-set" />
+                                              <figure>
+                                                <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                <input type="radio" name="radio-set" />
+                                                <figure>
+                                                  <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                  <input type="radio" name="radio-set" />
+                                                  <figure>
+                                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                    <input type="radio" name="radio-set" />
+                                                    <figure>
+                                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                      <input id="ia-selector-last5" type="radio" name="radio-set" />
+                                                    </figure>
+                                                  </figure>
+                                                </figure>
+                                              </figure>
+                                            </figure>
+                                          </figure>
+                                        </figure>
+                                      </figure>
+                                    </figure>
+                                  </figure>
+
+                                </figure>
+
+                              </figure>
+
+                            </figure>
+
+                          </figure>
+
+                        </figure>
+
+                      </figure>
+
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top">
+                  <div class="ia-container">
+                    <figure>
+                      <img src="images/lightbox4_12.jpg" alt="image01" />
+                      <input type="radio" name="radio-set" checked="checked"/>
+
+                      <figure>
+                        <img src="images/lightbox2_05.jpg" alt="image02" />
+                        <input type="radio" name="radio-set" />
+
+                        <figure>
+                          <img src="images/lightbox3_07.jpg" alt="image03" />
+                          <input type="radio" name="radio-set" />
+
+                          <figure>
+                            <img src="images/lightbox5_13.jpg" alt="image04" />
+                            <input type="radio" name="radio-set" />
+
+                            <figure>
+                              <img src="images/lightbox3_07.jpg" alt="image05" />
+                              <input type="radio" name="radio-set" />
+
+                              <figure>
+                                <img src="images/lightbox1_03.jpg" alt="image06" />
+                                <input type="radio" name="radio-set" />
+
+                                <figure>
+                                  <img src="images/lightbox6_14.jpg" alt="image07" />
+                                  <input type="radio" name="radio-set" />
+
+                                  <figure>
+                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                    <input type="radio" name="radio-set" />
+                                    <figure>
+                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                      <input type="radio" name="radio-set" />
+                                      <figure>
+                                        <img src="images/lightbox3_07.jpg" alt="image08" />
+                                        <input type="radio" name="radio-set" />
+                                        <figure>
+                                          <img src="images/lightbox3_07.jpg" alt="image08" />
+                                          <input type="radio" name="radio-set" />
+                                          <figure>
+                                            <img src="images/lightbox3_07.jpg" alt="image08" />
+                                            <input type="radio" name="radio-set" />
+                                            <figure>
+                                              <img src="images/lightbox3_07.jpg" alt="image08" />
+                                              <input type="radio" name="radio-set" />
+                                              <figure>
+                                                <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                <input type="radio" name="radio-set" />
+                                                <figure>
+                                                  <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                  <input type="radio" name="radio-set" />
+                                                  <figure>
+                                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                    <input type="radio" name="radio-set" />
+                                                    <figure>
+                                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                      <input id="ia-selector-last10" type="radio" name="radio-set" />
+                                                    </figure>
+                                                  </figure>
+                                                </figure>
+                                              </figure>
+                                            </figure>
+                                          </figure>
+                                        </figure>
+                                      </figure>
+                                    </figure>
+                                  </figure>
+
+                                </figure>
+
+                              </figure>
+
+                            </figure>
+
+                          </figure>
+
+                        </figure>
+
+                      </figure>
+
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="tab9">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top">
+                  <div class="ia-container">
+                    <figure>
+                      <img src="images/lightbox4_12.jpg" alt="image01" />
+                      <input type="radio" name="radio-set" checked="checked"/>
+
+                      <figure>
+                        <img src="images/lightbox2_05.jpg" alt="image02" />
+                        <input type="radio" name="radio-set" />
+
+                        <figure>
+                          <img src="images/lightbox3_07.jpg" alt="image03" />
+                          <input type="radio" name="radio-set" />
+
+                          <figure>
+                            <img src="images/lightbox5_13.jpg" alt="image04" />
+                            <input type="radio" name="radio-set" />
+
+                            <figure>
+                              <img src="images/lightbox3_07.jpg" alt="image05" />
+                              <input type="radio" name="radio-set" />
+
+                              <figure>
+                                <img src="images/lightbox1_03.jpg" alt="image06" />
+                                <input type="radio" name="radio-set" />
+
+                                <figure>
+                                  <img src="images/lightbox6_14.jpg" alt="image07" />
+                                  <input type="radio" name="radio-set" />
+
+                                  <figure>
+                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                    <input type="radio" name="radio-set" />
+                                    <figure>
+                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                      <input type="radio" name="radio-set" />
+                                      <figure>
+                                        <img src="images/lightbox3_07.jpg" alt="image08" />
+                                        <input type="radio" name="radio-set" />
+                                        <figure>
+                                          <img src="images/lightbox3_07.jpg" alt="image08" />
+                                          <input type="radio" name="radio-set" />
+                                          <figure>
+                                            <img src="images/lightbox3_07.jpg" alt="image08" />
+                                            <input type="radio" name="radio-set" />
+                                            <figure>
+                                              <img src="images/lightbox3_07.jpg" alt="image08" />
+                                              <input type="radio" name="radio-set" />
+                                              <figure>
+                                                <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                <input type="radio" name="radio-set" />
+                                                <figure>
+                                                  <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                  <input type="radio" name="radio-set" />
+                                                  <figure>
+                                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                    <input type="radio" name="radio-set" />
+                                                    <figure>
+                                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                      <input id="ia-selector-last6" type="radio" name="radio-set" />
+                                                    </figure>
+                                                  </figure>
+                                                </figure>
+                                              </figure>
+                                            </figure>
+                                          </figure>
+                                        </figure>
+                                      </figure>
+                                    </figure>
+                                  </figure>
+
+                                </figure>
+
+                              </figure>
+
+                            </figure>
+
+                          </figure>
+
+                        </figure>
+
+                      </figure>
+
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top">
+                  <div class="ia-container">
+                    <figure>
+                      <img src="images/lightbox4_12.jpg" alt="image01" />
+                      <input type="radio" name="radio-set" checked="checked"/>
+
+                      <figure>
+                        <img src="images/lightbox2_05.jpg" alt="image02" />
+                        <input type="radio" name="radio-set" />
+
+                        <figure>
+                          <img src="images/lightbox3_07.jpg" alt="image03" />
+                          <input type="radio" name="radio-set" />
+
+                          <figure>
+                            <img src="images/lightbox5_13.jpg" alt="image04" />
+                            <input type="radio" name="radio-set" />
+
+                            <figure>
+                              <img src="images/lightbox3_07.jpg" alt="image05" />
+                              <input type="radio" name="radio-set" />
+
+                              <figure>
+                                <img src="images/lightbox1_03.jpg" alt="image06" />
+                                <input type="radio" name="radio-set" />
+
+                                <figure>
+                                  <img src="images/lightbox6_14.jpg" alt="image07" />
+                                  <input type="radio" name="radio-set" />
+
+                                  <figure>
+                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                    <input type="radio" name="radio-set" />
+                                    <figure>
+                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                      <input type="radio" name="radio-set" />
+                                      <figure>
+                                        <img src="images/lightbox3_07.jpg" alt="image08" />
+                                        <input type="radio" name="radio-set" />
+                                        <figure>
+                                          <img src="images/lightbox3_07.jpg" alt="image08" />
+                                          <input type="radio" name="radio-set" />
+                                          <figure>
+                                            <img src="images/lightbox3_07.jpg" alt="image08" />
+                                            <input type="radio" name="radio-set" />
+                                            <figure>
+                                              <img src="images/lightbox3_07.jpg" alt="image08" />
+                                              <input type="radio" name="radio-set" />
+                                              <figure>
+                                                <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                <input type="radio" name="radio-set" />
+                                                <figure>
+                                                  <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                  <input type="radio" name="radio-set" />
+                                                  <figure>
+                                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                    <input type="radio" name="radio-set" />
+                                                    <figure>
+                                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                      <input id="ia-selector-last9" type="radio" name="radio-set" />
+                                                    </figure>
+                                                  </figure>
+                                                </figure>
+                                              </figure>
+                                            </figure>
+                                          </figure>
+                                        </figure>
+                                      </figure>
+                                    </figure>
+                                  </figure>
+
+                                </figure>
+
+                              </figure>
+
+                            </figure>
+
+                          </figure>
+
+                        </figure>
+
+                      </figure>
+
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="tab10">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top">
+                  <div class="ia-container">
+                    <figure>
+                      <img src="images/lightbox4_12.jpg" alt="image01" />
+                      <input type="radio" name="radio-set" checked="checked"/>
+
+                      <figure>
+                        <img src="images/lightbox2_05.jpg" alt="image02" />
+                        <input type="radio" name="radio-set" />
+
+                        <figure>
+                          <img src="images/lightbox3_07.jpg" alt="image03" />
+                          <input type="radio" name="radio-set" />
+
+                          <figure>
+                            <img src="images/lightbox5_13.jpg" alt="image04" />
+                            <input type="radio" name="radio-set" />
+
+                            <figure>
+                              <img src="images/lightbox3_07.jpg" alt="image05" />
+                              <input type="radio" name="radio-set" />
+
+                              <figure>
+                                <img src="images/lightbox1_03.jpg" alt="image06" />
+                                <input type="radio" name="radio-set" />
+
+                                <figure>
+                                  <img src="images/lightbox6_14.jpg" alt="image07" />
+                                  <input type="radio" name="radio-set" />
+
+                                  <figure>
+                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                    <input type="radio" name="radio-set" />
+                                    <figure>
+                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                      <input type="radio" name="radio-set" />
+                                      <figure>
+                                        <img src="images/lightbox3_07.jpg" alt="image08" />
+                                        <input type="radio" name="radio-set" />
+                                        <figure>
+                                          <img src="images/lightbox3_07.jpg" alt="image08" />
+                                          <input type="radio" name="radio-set" />
+                                          <figure>
+                                            <img src="images/lightbox3_07.jpg" alt="image08" />
+                                            <input type="radio" name="radio-set" />
+                                            <figure>
+                                              <img src="images/lightbox3_07.jpg" alt="image08" />
+                                              <input type="radio" name="radio-set" />
+                                              <figure>
+                                                <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                <input type="radio" name="radio-set" />
+                                                <figure>
+                                                  <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                  <input type="radio" name="radio-set" />
+                                                  <figure>
+                                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                    <input type="radio" name="radio-set" />
+                                                    <figure>
+                                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                      <input id="ia-selector-last7" type="radio" name="radio-set" />
+                                                    </figure>
+                                                  </figure>
+                                                </figure>
+                                              </figure>
+                                            </figure>
+                                          </figure>
+                                        </figure>
+                                      </figure>
+                                    </figure>
+                                  </figure>
+
+                                </figure>
+
+                              </figure>
+
+                            </figure>
+
+                          </figure>
+
+                        </figure>
+
+                      </figure>
+
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin-top">
+                  <div class="ia-container">
+                    <figure>
+                      <img src="images/lightbox4_12.jpg" alt="image01" />
+                      <input type="radio" name="radio-set" checked="checked"/>
+
+                      <figure>
+                        <img src="images/lightbox2_05.jpg" alt="image02" />
+                        <input type="radio" name="radio-set" />
+
+                        <figure>
+                          <img src="images/lightbox3_07.jpg" alt="image03" />
+                          <input type="radio" name="radio-set" />
+
+                          <figure>
+                            <img src="images/lightbox5_13.jpg" alt="image04" />
+                            <input type="radio" name="radio-set" />
+
+                            <figure>
+                              <img src="images/lightbox3_07.jpg" alt="image05" />
+                              <input type="radio" name="radio-set" />
+
+                              <figure>
+                                <img src="images/lightbox1_03.jpg" alt="image06" />
+                                <input type="radio" name="radio-set" />
+
+                                <figure>
+                                  <img src="images/lightbox6_14.jpg" alt="image07" />
+                                  <input type="radio" name="radio-set" />
+
+                                  <figure>
+                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                    <input type="radio" name="radio-set" />
+                                    <figure>
+                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                      <input type="radio" name="radio-set" />
+                                      <figure>
+                                        <img src="images/lightbox3_07.jpg" alt="image08" />
+                                        <input type="radio" name="radio-set" />
+                                        <figure>
+                                          <img src="images/lightbox3_07.jpg" alt="image08" />
+                                          <input type="radio" name="radio-set" />
+                                          <figure>
+                                            <img src="images/lightbox3_07.jpg" alt="image08" />
+                                            <input type="radio" name="radio-set" />
+                                            <figure>
+                                              <img src="images/lightbox3_07.jpg" alt="image08" />
+                                              <input type="radio" name="radio-set" />
+                                              <figure>
+                                                <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                <input type="radio" name="radio-set" />
+                                                <figure>
+                                                  <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                  <input type="radio" name="radio-set" />
+                                                  <figure>
+                                                    <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                    <input type="radio" name="radio-set" />
+                                                    <figure>
+                                                      <img src="images/lightbox3_07.jpg" alt="image08" />
+                                                      <input id="ia-selector-last8" type="radio" name="radio-set" />
+                                                    </figure>
+                                                  </figure>
+                                                </figure>
+                                              </figure>
+                                            </figure>
+                                          </figure>
+                                        </figure>
+                                      </figure>
+                                    </figure>
+                                  </figure>
+
+                                </figure>
+
+                              </figure>
+
+                            </figure>
+
+                          </figure>
+
+                        </figure>
+
+                      </figure>
+
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="row center-xs margin-top">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <button class="btn"><p class="more trigger">show more</p><p class="less hidden">show less</p></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="popup" class="popup">
+      <div class="popup_table">
+        <div id="popup_content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, commodi ea expedita
+            inventore labore laborum magni maxime non quas quis, quo repellat repudiandae similique
+            veritatis voluptatibus. A cumque cupiditate dicta dolor dolorem ea enim eos harum
+            incidunt ipsam iure labore maxime molestias natus necessitatibus nobis non nostrum odit
+            officia quasi qui quia quos reprehenderit, soluta totam vel voluptatibus. Autem ea,
+            eveniet iste iusto molestiae mollitia natus optio totam veniam vitae! Consequuntur deserunt
+            eos modi necessitatibus quam quas sequi. A deserunt ducimus iusto maiores, nobis</p>
+          <p>Use Javascript to insert anything here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/lightbox.js"></script>
+  <script src="scripts/tabs.js"></script>
+  <script src="scripts/swiper.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
