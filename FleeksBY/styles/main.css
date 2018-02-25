@@ -1,0 +1,379 @@
+h1{
+  font-size: 25px;
+}
+h2{
+  font-size: 18px;
+}
+h3{
+  font-size: 16px;
+}
+h4{
+  font-size: 14px;
+}
+body{
+  font-size: 12px;
+  font-family: "Arial", sans-serif;
+}
+small{
+  font-size: smaller;
+}
+.jumbotron{
+  position: relative;
+}
+.bun{
+  font-size: 25px;
+  background-color: rgba(255, 240, 0, 0.7);
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 100px;
+  position: absolute;
+  left: 30px;
+  bottom: 50px;
+  display: none;
+}
+.code{
+  background-color: black;
+  color: white;
+  padding: 2px 5px;
+}
+.social-networks{
+  width: 100px;
+  justify-content: space-between;
+}
+.line-through{
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+.trebuchet{
+  font-family: "Trebuchet MS", sans-serif;
+}
+.page {
+  overflow-x: hidden;
+}
+.list{
+  list-style: none;
+}
+.container{
+  width: 11.5rem;
+}
+.no-width{
+  width: auto;
+}
+.header .font{
+  font-size: 8px;
+}
+.font-big{
+  font-size: 18px;
+}
+.center{
+  text-align: center;
+}
+.navbar{
+  background-color: #00bff3;
+  padding: 20px 0;
+}
+.navbar .text{
+  color: #ffffff;
+}
+.logo{
+  display: inline-block;
+  background: url('../images/logo_03.png') no-repeat 0 0;
+  background-size: contain;
+  height: 20px;
+  width: 80px;
+}
+.social-networks{
+  display: flex;
+}
+.facebook{
+  background: url('../images/fb_03.png') no-repeat 0 0;
+  display: inline-block;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
+.google{
+  background: url('../images/google_05.png') no-repeat 0 0;
+  display: inline-block;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
+.instagram{
+  background: url('../images/instagram_07.png') no-repeat 0 0;
+  display: inline-block;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
+.padding{
+  padding: 20px 20px;
+}
+.col-margin{
+  margin-top: 50px;
+}
+.image{
+  width: 100%;
+}
+.my-flex-container{
+  display: flex;
+  flex-direction: column;
+}
+.my-flex-block{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my-flex-block+.my-flex-block{
+  margin-top: 10px;
+}
+.my-flex-block .blue{
+  background-color: #00bff3;
+  width: 20px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+}
+.jumbotron-content .my-flex-block{
+  height: 20px;
+}
+.card-content .left{
+  text-align: left;
+}
+.card-content .center{
+  vertical-align: middle;
+}
+.card-content .right{
+  text-align: right;
+}
+.card-content .content{
+  padding: 5px 3px;
+}
+.stars{
+  font-size: 20px;
+  color: #ffc20e;
+}
+.blue{
+  background-color: #00bff3;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.card-content{
+  font-size: 9px;
+}
+.hidden-xs{
+  display: none;
+}
+.hidden-lg{
+  display: flex;
+}
+.article .text{
+  padding-bottom: 20px;
+  line-height: 23px;
+}
+.article{
+  margin-top: 30px;
+}
+.article .answer{
+  border-left: 2px solid #00bff3;
+  margin-left: 10px;
+  padding-left: 10px;
+  background-color: #f0fbfe;
+}
+.red{
+  color: red;
+}
+.footer .content{
+  padding-bottom: 10px;
+}
+.footer .wrap{
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (min-width: 412px){
+
+  .container{
+    width: 16rem;
+  }
+  .no-width{
+    width: auto;
+  }
+}
+
+
+@media screen and (min-width: 480px){
+
+  .container{
+    width: 18rem;
+  }
+  .no-width{
+    width: auto;
+  }
+
+}
+
+@media screen and (min-width: 568px){
+
+  .container{
+    width: 22rem;
+  }
+  .no-width{
+    width: auto;
+  }
+
+}
+
+@media screen and (min-width: 640px){
+  .container{
+    width: 25rem;
+  }
+  .no-width{
+    width: auto;
+  }
+
+}
+
+@media screen and (min-width: 732px){
+
+  .container{
+    width: 29rem;
+  }
+  .no-width{
+    width: auto;
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+
+  .container{
+    width: 35rem;
+  }
+  .no-width{
+    width: auto;
+  }
+
+}
+
+@media screen and (min-width: 1200px){
+
+  .container{
+    width: 48rem;
+  }
+  .padding{
+    padding: 20px 0;
+  }
+  .navbar .content{
+    display: flex;
+    align-items: center;
+  }
+  .navbar .hidden-xs{
+    width: 100px;
+    justify-content: space-between;
+  }
+  .navbar .right{
+    justify-content: flex-end;
+  }
+  .logo{
+    margin-right: 15px;
+  }
+  .callback{
+    margin: 0 60px 0 40px;
+  }
+  .jumbotron-image{
+    width: 100%;
+  }
+  .header .font{
+    font-size: 16px;
+  }
+  .stars{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 22px;
+  }
+  .my-flex-block .price{
+    font-size: 25px;
+  }
+  .cell .uppercase{
+    font-size: 12px;
+    color: #777777;
+  }
+  .jumbotron-content .my-flex-block{
+    height: 50px;
+  }
+  .notice .number{
+    font-size: 100px;
+    color: #777777;
+  }
+  .jumbotron-content .hidden-xs{
+    flex-direction: column;
+    align-items: center;
+  }
+  .notice .text{
+    font-size: 25px;
+    line-height: 22px;
+  }
+  .article .hidden-xs{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .grey{
+    color: #777777;
+  }
+  .center{
+    text-align: left;
+  }
+  .footer .wrap{
+    justify-content: flex-end;
+  }
+  .border{
+    border-top: 1px solid;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 1366px){
+
+  .my-flex-block .blue{
+    width: 50px;
+  }
+
+}
+
+@media screen and (min-width: 1500px){
+
+  .logo{
+    height: 50px;
+    width: 200px;
+  }
+  .font-big{
+    font-size: 25px;
+  }
+  .hidden-xs{
+    display: flex;
+  }
+  .hidden-lg{
+    display: none;
+  }
+  .navbar .text{
+    display: flex;
+  }
+  .jumbotron-content .notice{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+  }
+  .bun{
+    display: block;
+  }
+
+}
