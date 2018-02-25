@@ -680,6 +680,7 @@ a{
 	.card{
         margin: 40px auto 40px;
         position: relative;
+        padding: 0 80px;
     }
     .card-description{
     	font-size: 20px;
