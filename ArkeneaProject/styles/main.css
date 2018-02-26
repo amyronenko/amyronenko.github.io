@@ -876,6 +876,9 @@ a{
     .module-form .wrap {
         width: 400px;
     }
+    .form-input+.form-input {
+        margin-left: 0;
+    }
 }
 @media screen and (min-width: 1300px){
     .container {
