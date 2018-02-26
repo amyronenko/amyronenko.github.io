@@ -1133,7 +1133,7 @@ form button{
     #gallery-container .pad-b-r-mobile {
         padding-top: 0;
         padding-right: 0;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
 }
 @media (min-width: 1024px){
