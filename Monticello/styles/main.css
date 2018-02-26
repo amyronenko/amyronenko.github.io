@@ -1262,7 +1262,13 @@ form button{
         background-position: 0% 65%;
         background-size: 480px;
     }
-
+    .header .wrap .logo{
+        height: 28px;
+        width: 118px;
+    }
+    #wrap nav ul li {
+        font-size: 12px;
+    }
 }
 @media (min-width: 1366px){
     h1{
