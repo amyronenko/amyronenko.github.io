@@ -823,7 +823,9 @@ a{
         width: 1240px;
     }
     form.form .wrap{
-
+        display: flex;
+        justify-content: space-between;
+        width: 440px;
     }
 }
 @media screen and (min-width: 1400px){
