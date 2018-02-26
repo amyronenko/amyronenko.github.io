@@ -338,6 +338,11 @@ a{
         padding: 0 15%;
     }
 }
+@media (min-width: 414px){
+    .btn.form-btn{
+        width: 30%;
+    }
+}
 @media (min-width: 480px) and (max-width: 568px){
     .module-pictures .card{
         padding: 0 20vw;
