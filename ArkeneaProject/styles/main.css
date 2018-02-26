@@ -590,7 +590,8 @@ a{
 }
 @media (min-width: 768px){
 	.container{
-        width: 1045px;
+        /*width: 1045px;*/
+        width: 775px;
     }
 	.card-thumb{
 		height: 200px;
