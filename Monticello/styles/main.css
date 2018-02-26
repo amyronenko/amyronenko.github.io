@@ -1224,6 +1224,10 @@ form button{
     header.header .wrap {
         justify-content: center;
     }
+    .mini-slider .swiper-button-prev_s_3,
+    .mini-slider .swiper-button-next_s_3{
+        top: 75px;
+    }
 }
 @media (min-width: 1200px){
     .container {
