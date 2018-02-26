@@ -862,7 +862,8 @@ a{
         width: 100%;
     }
     .btn.form-btn {
-        width: auto;
+        width: 100px;
+        margin-top: 10px;
     }
 }
 @media (min-width: 1150px){
