@@ -386,160 +386,7 @@ a{
         width: 400px;
     }
 }
-@media(min-width: 768px){
-	.container {
-        width: 45rem;
-    }
-	.margin{
-		margin-top: 60px;
-	}
-	.banner-content{
-		height: 450px;
-		margin-top: 50px;
-		position: relative;
-	}
-	.h1{
-		display: block;
-		font-size: 45px;
-	}
-	.article-content{
-		display: block;
-	}
-	.contact-list{
-		text-align: right;
-	}
-	.module-picture{
 
-	}
-    .header-form{
-        margin-top: 50px;
-    }
-    .form-control{
-        width: auto;
-        display: inline-block;
-        border-radius: 5px;
-    }
-    .form-control+.form-control{
-        margin-top: 0;
-        margin-left: 0;
-    }
-    .header-input{
-        width: auto;
-        position: static;
-        border-radius: 3px;
-        display: inline-block;
-        margin-right: 15px;
-    }
-    .btn{
-        width: auto;
-        border-radius: 3px;
-    }
-    .card{
-    	margin: 40px auto 40px;
-        position: relative;
-    }
-    .card-description{
-    	font-size: 16px;
-    }
-    .link{
-    	margin-top: 20px;
-    	display: block;
-    }
-    .header-btn{
-        position: static;
-        display: inline-block;
-        padding: 0 20px 0;
-        width: auto;
-        border-radius: 3px;
-    }
-    .modal{
-		top: 110px;
-		left: 35px;
-		width: 100%;
-		height: 550px;
-	}
-	.modal__inner{
-		height: 100%;
-	}
-	.menu-inner{
-		width: 700px;
-	}
-	.module-pictures-content{
-		padding: 20px 0 0;
-		font-size: 12px;
-	}
-	 .card-thumb{
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-        text-align: center;
-    }
-    .indent-x{
-    	padding: 0;
-    }
-    .pic-content{
-    	display: inline;
-    }
-	.margin-top{
-		margin: 0;
-	}
-	.module-picture{
-		margin-top: 30px;
-	}
-	.link{
-		padding: 0;
-	}
-    .title{
-    	padding: 0;
-    	font-size: 32px;
-    }
-    .block{
-    	margin: 15px 0 0;
-    }
-    .form{
-		text-align: left;
-		overflow: hidden;
-	}
-	.form-header{
-		padding: 0;
-	}
-    .form-textarea{
-        display: block;
-        width: 400px;
-    }
-    .form-btn{
-        padding: 0 80px 0;
-        margin-top: 15px;
-    }
-    .form-input{    
-        display: inline-block;
-        width: 192px;
-        margin-bottom: 15px;
-    }
-    .right{
-		text-align: right;
-	}
-	.swiper-slide{
-		padding-top: 100px;
-	}
-	.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
-		bottom: 50px;
-	}
-	.form-input+.form-input{
-        margin-left: 10px;
-    }
-    .contact{
-    	text-transform: lowercase;
-    	font-size: 13px;
-    }
-    .contact-title{
-    	margin-top: 40px;
-    }
-    .padding{
-    	padding: 0;
-    }
-
-}
 @media (min-width: 768px) and (max-width:1200px){
     .module-pictures .card {
         width: 215px;
@@ -909,4 +756,158 @@ a{
 	.card-thumb{
 		height: 320px;
 	}
+}
+@media(min-width: 768px){
+    .container {
+        width: 45rem;
+    }
+    .margin{
+        margin-top: 60px;
+    }
+    .banner-content{
+        height: 450px;
+        margin-top: 50px;
+        position: relative;
+    }
+    .h1{
+        display: block;
+        font-size: 45px;
+    }
+    .article-content{
+        display: block;
+    }
+    .contact-list{
+        text-align: right;
+    }
+    .module-picture{
+
+    }
+    .header-form{
+        margin-top: 50px;
+    }
+    .form-control{
+        width: auto;
+        display: inline-block;
+        border-radius: 5px;
+    }
+    .form-control+.form-control{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .header-input{
+        width: auto;
+        position: static;
+        border-radius: 3px;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .btn{
+        width: auto;
+        border-radius: 3px;
+    }
+    .card{
+        margin: 40px auto 40px;
+        position: relative;
+    }
+    .card-description{
+        font-size: 16px;
+    }
+    .link{
+        margin-top: 20px;
+        display: block;
+    }
+    .header-btn{
+        position: static;
+        display: inline-block;
+        padding: 0 20px 0;
+        width: auto;
+        border-radius: 3px;
+    }
+    .modal{
+        top: 110px;
+        left: 35px;
+        width: 100%;
+        height: 550px;
+    }
+    .modal__inner{
+        height: 100%;
+    }
+    .menu-inner{
+        width: 700px;
+    }
+    .module-pictures-content{
+        padding: 20px 0 0;
+        font-size: 12px;
+    }
+    .card-thumb{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }
+    .indent-x{
+        padding: 0;
+    }
+    .pic-content{
+        display: inline;
+    }
+    .margin-top{
+        margin: 0;
+    }
+    .module-picture{
+        margin-top: 30px;
+    }
+    .link{
+        padding: 0;
+    }
+    .title{
+        padding: 0;
+        font-size: 32px;
+    }
+    .block{
+        margin: 15px 0 0;
+    }
+    .form{
+        text-align: left;
+        overflow: hidden;
+    }
+    .form-header{
+        padding: 0;
+    }
+    .form-textarea{
+        display: block;
+        width: 400px;
+    }
+    .form-btn{
+        padding: 0 80px 0;
+        margin-top: 15px;
+    }
+    .form-input{
+        display: inline-block;
+        width: 192px;
+        margin-bottom: 15px;
+    }
+    .right{
+        text-align: right;
+    }
+    .swiper-slide{
+        padding-top: 100px;
+    }
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
+        bottom: 50px;
+    }
+    .form-input+.form-input{
+        margin-left: 10px;
+    }
+    .contact{
+        text-transform: lowercase;
+        font-size: 13px;
+    }
+    .contact-title{
+        margin-top: 40px;
+    }
+    .padding{
+        padding: 0;
+    }
+
 }
