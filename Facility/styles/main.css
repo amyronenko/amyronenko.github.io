@@ -460,6 +460,13 @@ h4{
     }
 
 }
+@media (max-width : 1200px){
+    .mini-slider .swiper-button-prev_s_3,
+    .mini-slider .swiper-button-next_s_3{
+        top: 75px;
+    }
+}
+
 @media (min-width : 1200px){
     .swiper-slide .img-mini {
         height: 200px;
