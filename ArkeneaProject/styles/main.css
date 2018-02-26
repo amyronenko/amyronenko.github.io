@@ -749,14 +749,7 @@ a{
         width: 440px;
     }
 }
-@media screen and (min-width: 1400px){
-	.container{
-        width: 1240px;
-	}
-	.card-thumb{
-		height: 320px;
-	}
-}
+
 @media(min-width: 768px){
     .container {
         width: 45rem;
@@ -910,4 +903,12 @@ a{
         padding: 0;
     }
 
+}
+@media screen and (min-width: 1400px){
+    .container{
+        width: 1240px;
+    }
+    .card-thumb{
+        height: 320px;
+    }
 }
