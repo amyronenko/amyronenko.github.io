@@ -386,7 +386,7 @@ a{
         width: 400px;
     }
 }
-@media screen and (min-width: 768px){
+@media(min-width: 768px){
 	.container {
         width: 45rem;
     }
@@ -474,15 +474,12 @@ a{
         position: relative;
         text-align: center;
     }
-
     .indent-x{
     	padding: 0;
     }
-
     .pic-content{
     	display: inline;
     }
-
 	.margin-top{
 		margin: 0;
 	}
@@ -541,6 +538,7 @@ a{
     .padding{
     	padding: 0;
     }
+
 }
 @media (min-width: 768px) and (max-width:1200px){
     .module-pictures .card {
@@ -607,6 +605,12 @@ a{
     }
     .form-input + .form-input{
         margin-left: 0;
+    }
+    .module-pictures .card {
+        width: 150px;
+    }
+    div.card .card-thumb {
+        height: 150px;
     }
 }
 @media screen and (min-width: 1098px) {
