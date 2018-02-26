@@ -756,7 +756,7 @@ a{
     }
     .banner-content{
         height: 450px;
-        margin-top: 50px;
+        margin-top: 125px;
         position: relative;
     }
     .h1{
@@ -907,5 +907,13 @@ a{
     }
     .card-thumb{
         height: 320px;
+    }
+}
+@media screen and (min-width: 1150px){
+    .h1-cover {
+        line-height: 70px;
+    }
+    header .h1 {
+        font-size: 61px;
     }
 }
