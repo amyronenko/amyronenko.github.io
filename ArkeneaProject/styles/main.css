@@ -358,7 +358,7 @@ a{
         padding: 0 32vw;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 1152px){
     .module-form .title,
     .module-form{
         text-align: center;
