@@ -358,6 +358,23 @@ a{
         padding: 0 32vw;
     }
 }
+@media (max-width: 768px){
+    .module-form .title,
+    .module-form{
+        text-align: center;
+    }
+    .module-form form.form {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .module-form .wrap {
+        width: 400px;
+    }
+    .module-form .contact-list {
+        text-align: center;
+    }
+}
 @media screen and (min-width: 768px){
 	.container {
         width: 45rem;
