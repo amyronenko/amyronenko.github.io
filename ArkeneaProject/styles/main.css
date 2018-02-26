@@ -377,6 +377,9 @@ a{
     form.form .form-control{
         text-align: center;
     }
+    form.form .form-textarea{
+        width: 400px;
+    }
 }
 @media screen and (min-width: 768px){
 	.container {
