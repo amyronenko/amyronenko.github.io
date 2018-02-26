@@ -177,7 +177,7 @@ a{
 .header-input{
     width:100%;
     position: absolute;
-    bottom: 43px;
+    bottom: 50px;
     left: 0;
     text-align: center;
 }
@@ -313,6 +313,12 @@ a{
 .margin-top{
 	margin-top: 80px;
 }
+.header-input,
+.module-header .header-btn{
+    height: 50px;
+    font-size: 15px;
+}
+
 @media (min-width: 360px) and (max-width: 768px){
     .module-pictures .card{
         display: flex;
