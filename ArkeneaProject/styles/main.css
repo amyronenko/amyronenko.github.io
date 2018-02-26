@@ -374,6 +374,9 @@ a{
     .module-form .contact-list {
         text-align: center;
     }
+    form.form .form-control{
+        text-align: center;
+    }
 }
 @media screen and (min-width: 768px){
 	.container {
