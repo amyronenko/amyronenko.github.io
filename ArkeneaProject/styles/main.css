@@ -731,7 +731,7 @@ a{
 	.card{
         margin: 40px auto 40px;
         position: relative;
-        /*padding: 0 80px;*/
+        padding: 0 40px;
     }
     .card-description{
     	font-size: 20px;
