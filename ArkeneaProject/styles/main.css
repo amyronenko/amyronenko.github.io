@@ -897,6 +897,9 @@ a{
         justify-content: space-between;
         width: 440px;
     }
+    .module-form .form-control.form-textarea{
+        width: 440px;
+    }
 }
 @media screen and (min-width: 1400px){
 	.container{
