@@ -321,7 +321,6 @@ a{
 .module-form .form-control.form-textarea{
     margin-top: 10px;
 }
-
 @media (min-width: 360px) and (max-width: 768px){
     .module-pictures .card{
         display: flex;
@@ -386,7 +385,6 @@ a{
         width: 400px;
     }
 }
-
 @media (min-width: 768px) and (max-width:1200px){
     .module-pictures .card {
         width: 215px;
@@ -749,7 +747,6 @@ a{
         width: 440px;
     }
 }
-
 @media(min-width: 768px){
     .container {
         width: 45rem;
