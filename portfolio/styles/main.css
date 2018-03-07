@@ -57,7 +57,7 @@ img.photo{
     overflow: hidden;
     position: relative;
 	text-align: center;
-	padding: 20px 0;
+	/*padding: 20px 0;*/
 }
 .card-img{
 	width: 100%;
@@ -218,6 +218,9 @@ img.card-img.cds-project{
 		font-size: 22px;
 		flex-direction: row;
 		padding: 100px 15px 20px;
+	}
+	.flex-block {
+		border: 1px solid #cdcdcd30;
 	}
 }
 @media screen and (min-width: 1024px) {
@@ -380,7 +383,6 @@ img.card-img.cds-project{
 	}
 	.flex-block{
 		padding: 0;
-		border: 1px solid #cdcdcd30;
 	}
 	.invisible{
 		display: block;
