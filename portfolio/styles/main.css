@@ -129,6 +129,10 @@ img.photo{
 img.card-img.empty{
 	height: 100%;
 }
+.col-lg-3{
+	padding-right: .8rem;
+	padding-left: .8rem;
+}
 @media screen and (min-width: 736px){
 	.container{
 		width: 26rem;
@@ -215,7 +219,7 @@ img.card-img.empty{
 		width: 52rem;
 	}
     .flex-container{
-		height: 60vh;
+		height: 70vh;
     }
 	.flex-grow-1{
 		flex: 1 0 0;
@@ -243,7 +247,7 @@ img.card-img.empty{
 		margin: 0;
 	}
     .flex-block+.flex-block{
-        margin-top: 18px;
+		margin-top: 1.5rem;
     }
 	.project-title{
 		display: none;
@@ -334,6 +338,7 @@ img.card-img.empty{
 	}
 	.flex-block{
 		padding: 0;
+		border: 1px solid #cdcdcd30;
 	}
 	.invisible{
 		display: block;
