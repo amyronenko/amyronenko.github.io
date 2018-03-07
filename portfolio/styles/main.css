@@ -13,10 +13,14 @@ a{
   flex-direction: column;
   justify-content: space-around;
 }
-.photo{
+.wrap {
 	height: 60px;
 	width: 60px;
 	border-radius: 100px;
+	overflow: hidden;
+}
+img.photo{
+	width: 60px;
 }
 .h-wrapper{
 	display: flex;
@@ -62,6 +66,7 @@ a{
 .card{
 	vertical-align: top;
 	position: relative;
+	height: 100%;
 }
 .card-link{
 	width: 100%;
@@ -121,12 +126,14 @@ a{
 	padding: 20px 0;
 	font-size: 10px;
 }
+img.card-img.empty{
+	height: 100%;
+}
 @media screen and (min-width: 736px){
 	.container{
 		width: 26rem;
 	}
 }
-
 @media screen and (min-width: 768px){
 	.container{
 		width: 29rem;
@@ -208,7 +215,7 @@ a{
 		width: 52rem;
 	}
     .flex-container{
-        height: 800px;
+		height: 60vh;
     }
 	.flex-grow-1{
 		flex: 1 0 0;
@@ -263,6 +270,7 @@ a{
     	justify-content: center;
     	align-items: center;
         display: flex;
+		font-size: 25px;
 	}
     @keyframes bounce{
         0% {transform: translateY(-120px);}
