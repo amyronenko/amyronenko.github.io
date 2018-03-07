@@ -137,6 +137,7 @@ img.card-img.cds-project{
 	height: 100%;
 	width: auto;
 }
+
 @media screen and (min-width: 736px){
 	.container{
 		width: 26rem;
@@ -146,18 +147,77 @@ img.card-img.cds-project{
 	.container{
 		width: 29rem;
 	}
-	.flex-container{
-		height: 700px;
-	}
-	.h-wrapper{
-		flex-direction: row;
-		padding: 30px 20px;
-	}
+
 	.h1{
 		letter-spacing: 3px;
 	}
 	.footer-contacts{
 		margin: 50px 0 0;
+	}
+}
+
+@media (max-width:1152px){
+	.flex-container{
+		width: 80%;
+	}
+	.mobile-center{
+		display: flex;
+		justify-content: center;
+	}
+	.mobile-center+.mobile-center{
+		margin-top: 1.5rem;
+	}
+	.card {
+		height: 400px;
+		border: 1px solid #cdcdcd30;
+		overflow: hidden;
+	}
+	.project-title {
+		padding: 30px 0;
+	}
+	img.card-img.cds-project {
+		height: auto;
+		width: 100%;
+	}
+}
+@media(max-width:450px){
+	.card {
+		height: 250px;
+	}
+}
+@media (min-width:1152px){
+	.project-title{
+		display: none;
+	}
+	.flex-grow-1{
+		flex: 1 0 0;
+	}
+	.flex-grow-2{
+		flex: 2 0 0;
+	}
+	.flex-grow-3{
+		flex: 3 0 0;
+	}
+	.flex-grow-1{
+		flex: 3 0 0;
+	}
+	.flex-grow-2{
+		flex: 5 0 0;
+	}
+	/*.flex-container{*/
+		/*height: 700px;*/
+	/*}*/
+	.flex-container{
+		height: 70vh;
+	}
+	.h-wrapper{
+		flex-direction: row;
+		padding: 30px 20px;
+	}
+	.h-wrapper{
+		font-size: 22px;
+		flex-direction: row;
+		padding: 100px 15px 20px;
 	}
 }
 @media screen and (min-width: 1024px) {
@@ -168,20 +228,11 @@ img.card-img.cds-project{
 	.h2{
 		text-align: right;
 	}
-	.h-wrapper{
-		font-size: 22px;
-		flex-direction: row;
-		padding: 100px 15px 20px;
-	}
-	.project-title{
-		padding: 30px 0 0;
-	}
-	.flex-grow-1{
-		flex: 3 0 0;
-	}
-	.flex-grow-2{
-		flex: 5 0 0;
-	}
+
+	/*.project-title{*/
+		/*padding: 30px 0 0;*/
+	/*}*/
+
 	.footer-contacts{
 		list-style: none;
 		font-size: 16px;
@@ -219,21 +270,10 @@ img.card-img.cds-project{
 	.page{
 		height: auto;
 	}
-	.container{
-		width: 52rem;
-	}
-    .flex-container{
-		height: 70vh;
-    }
-	.flex-grow-1{
-		flex: 1 0 0;
-	}
-	.flex-grow-2{
-		flex: 2 0 0;
-	}
-	.flex-grow-3{
-		flex: 3 0 0;
-	}
+	/*.container{*/
+		/*width: 52rem;*/
+	/*}*/
+
 	.h-wrapper{
 		font-size: 30px;
 		padding: 30px 0;
@@ -253,9 +293,7 @@ img.card-img.cds-project{
     .flex-block+.flex-block{
 		margin-top: 1.5rem;
     }
-	.project-title{
-		display: none;
-	}
+
 	.shadow{
 		background: rgba(86, 112, 246, 0.45);
     	position: absolute;
@@ -347,6 +385,9 @@ img.card-img.cds-project{
 	.invisible{
 		display: block;
 	}
+}
+@media (min-width:1536px){
+
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	@media screen and (min-width: 1460px){
