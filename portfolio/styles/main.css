@@ -133,6 +133,10 @@ img.card-img.empty{
 	padding-right: .8rem;
 	padding-left: .8rem;
 }
+img.card-img.cds-project{
+	height: 100%;
+	width: auto;
+}
 @media screen and (min-width: 736px){
 	.container{
 		width: 26rem;
