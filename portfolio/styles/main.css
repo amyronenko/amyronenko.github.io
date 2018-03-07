@@ -133,20 +133,17 @@ img.card-img.empty{
 	padding-right: .8rem;
 	padding-left: .8rem;
 }
-img.card-img.cds-project{
-	height: 100%;
-	width: auto;
-}
+
 
 @media screen and (min-width: 736px){
-	.container{
-		width: 26rem;
-	}
+	/*.container{*/
+		/*width: 26rem;*/
+	/*}*/
 }
 @media screen and (min-width: 768px){
-	.container{
-		width: 29rem;
-	}
+	/*.container{*/
+		/*width: 29rem;*/
+	/*}*/
 
 	.h1{
 		letter-spacing: 3px;
@@ -222,12 +219,16 @@ img.card-img.cds-project{
 	.flex-block {
 		border: 1px solid #cdcdcd30;
 	}
+	/*img.card-img.cds-project{*/
+		/*height: 100%;*/
+		/*width: auto;*/
+	/*}*/
 }
 @media screen and (min-width: 1024px) {
 	
-	.container{
-		width: 34rem;
-	}
+	/*.container{*/
+		/*width: 34rem;*/
+	/*}*/
 	.h2{
 		text-align: right;
 	}
@@ -378,9 +379,9 @@ img.card-img.cds-project{
 
 @media screen and (min-width: 1460px) {
 
-	.container{
-		width: 72rem;
-	}
+	/*.container{*/
+		/*width: 72rem;*/
+	/*}*/
 	.flex-block{
 		padding: 0;
 	}
@@ -391,11 +392,11 @@ img.card-img.cds-project{
 @media (min-width:1536px){
 
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-	@media screen and (min-width: 1460px){
-		.container{
-			width: 50rem;
-		}
-	}
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {*/
+	/*@media screen and (min-width: 1460px){*/
+		/*.container{*/
+			/*width: 50rem;*/
+		/*}*/
+	/*}*/
 
-}
+/*}*/
