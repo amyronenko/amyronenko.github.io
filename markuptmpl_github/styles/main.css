@@ -452,7 +452,7 @@ a:hover {
 }
 
 .features .feature__icon {
-    padding: 2em;
+    padding: 3em;
     position: relative;
     -webkit-transition: color 0.3s;
     transition: color 0.3s;
