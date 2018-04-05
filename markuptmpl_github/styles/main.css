@@ -1,0 +1,713 @@
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.anchor {
+    height: 100vh;
+}
+
+.anchor__item {
+    height: 50vh;
+}
+
+.text-red {
+    color: #ff343d;
+}
+
+.text {
+    font-size: 0.6em;
+    font-weight: 500;
+    color: #92a1a5;
+    letter-spacing: 0.5px;
+}
+
+.layout {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.header__logo {
+    background: url("../images/mars_logo.png") center center no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 100px;
+}
+
+.header__phone {
+    background: url("../images/mars_phone_icon.png") left center no-repeat;
+    padding-left: 15px;
+    color: #a3b0b4;
+    font-size: 0.5em;
+    height: 60px;
+    line-height: 60px;
+}
+
+.header__button {
+    color: #fff;
+    font-size: 0.6em;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+}
+
+.header__menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header .spinner-master {
+    position: relative;
+    height: 40px;
+    width: 20px;
+}
+
+.header .spinner-master * {
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+.header .spinner-master input[type=checkbox] {
+    display: none;
+}
+
+.header .spinner-master label {
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    top: 16px;
+    left: 0;
+}
+
+.header .spinner-master .spinner {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header .spinner-master .diagonal.part-1 {
+    position: relative;
+    float: left;
+}
+
+.header .spinner-master .horizontal {
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+.header .spinner-master .diagonal.part-2 {
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+
+.header .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .horizontal {
+    opacity: 0;
+}
+
+.header .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-1 {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    margin-top: 16px;
+}
+
+.header .spinner-master input[type=checkbox]:checked ~ .spinner-spin > .diagonal.part-2 {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-top: -7.5px;
+}
+
+.header .navbar {
+    padding: 0 1rem;
+}
+
+.header .navbar-toggler {
+    padding: 0;
+    border: none;
+}
+
+.header .navbar-collapse {
+    padding-right: 70px;
+}
+
+.header .navbar .navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.header .navbar > .container {
+    display: block;
+}
+
+.header .navbar .nav-link {
+    text-align: right;
+}
+
+.header button:focus {
+    outline: none;
+}
+
+@media (max-width: 768px) {
+    .header .hidden-mobile {
+        display: none;
+    }
+}
+
+.carousel {
+    background-image: url('../images/carousel_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* ------------------------------ vertical bootstrap slider---------------------------- */
+}
+
+.carousel__indicators-container {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.carousel__indicators-container .container {
+    height: 100%;
+    position: relative;
+}
+
+.carousel__indicators-container .carousel-indicators {
+    height: 20px;
+    width: 100px;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: auto;
+    margin: auto;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.carousel__indicators-container .carousel-indicators li {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: 0.2;
+}
+
+.carousel__indicators-container .carousel-indicators li.active {
+    margin-bottom: 0;
+    background: #ff343d;
+    opacity: 1;
+}
+
+.carousel__slider-container {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel__slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.carousel-slider__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.carousel .carousel-item--phantom {
+    background-image: url('../images/mars_slider_drone.png');
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .carousel-item--black-drone {
+    background-image: url('../images/mars_slide_black.png');
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel .carousel-inner,
+.carousel .carousel-item,
+.carousel .fill {
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.carousel .slide-wrapper {
+    display: inline;
+    padding: 0;
+}
+
+.carousel .carousel-inner > .carousel-item.carousel-item-next,
+.carousel .carousel-inner > .carousel-item.active.carousel-item-right {
+    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -moz-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    top: 0;
+}
+
+.carousel .carousel-inner > .carousel-item.carousel-item-prev,
+.carousel .carousel-inner > .carousel-item.active.carousel-item-left {
+    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+    -moz-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+    top: 0;
+}
+
+.carousel .carousel-inner > .carousel-item.next.carousel-item-left,
+.carousel .carousel-inner > .carousel-item.carousel-item-prev.carousel-item-right,
+.carousel .carousel-inner > .carousel-item.active {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    top: 0;
+}
+
+.gallery {
+    overflow: hidden;
+}
+
+.gallery .container-fluid {
+    padding: 0;
+}
+
+.gallery__item {
+    display: inline-block;
+}
+
+.gallery__title {
+    z-index: 1;
+}
+
+.gallery-animated-box {
+    background: #f8f9fb url("../images/mars_tap_to_fly.jpg") 0 center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 50vh;
+}
+
+.gallery-animated-box__circle {
+    background: url("../images/mars_circle.png") center bottom no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -200px;
+    left: auto;
+    margin: auto;
+    display: block;
+    -webkit-box-shadow: 0 0 0 0 #eee, inset 0 0 0 #e8ecf1;
+    box-shadow: 0 0 0 0 #eee, inset 0 0 0 #e8ecf1;
+    border-radius: 100%;
+    cursor: pointer;
+    -webkit-animation: pulses 2s infinite cubic-bezier(0.6, 0, 0, 1);
+    animation: pulses 2s infinite cubic-bezier(0.6, 0, 0, 1);
+}
+
+.gallery-animated-box__circle:hover {
+    -webkit-animation: pulse_big 2s infinite ease;
+    animation: pulse_big 2s infinite ease;
+}
+
+@-webkit-keyframes pulses {
+    to {
+        -webkit-box-shadow: 0 0 0 15px rgba(90, 153, 220, 0), inset 0 0 0 #f4f5f8;
+        box-shadow: 0 0 0 15px rgba(90, 153, 220, 0), inset 0 0 0 #f4f5f8;
+    }
+}
+
+@-webkit-keyframes pulse_big {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    70% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.gallery-static-box {
+    background: url("../images/mars_gallery_static_bg.jpg") center bottom no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+.gallery-static-box .row {
+    height: 100%;
+}
+
+.gallery-static-box .gallery-shadow-block {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.gallery-static-box .gallery-btn {
+    height: 50px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    left: auto;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.gallery-static-box .gallery-btn::before {
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    height: 140px;
+    bottom: -46px;
+    left: -100px;
+    width: 1px;
+    background: #fff;
+}
+
+.gallery-static-box .gallery-col {
+    position: relative;
+    overflow: hidden;
+}
+
+.features__title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.features .feature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 200px;
+}
+
+.features .feature__icon {
+    padding: 2em;
+    position: relative;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+.features .feature__icon:hover {
+    border-color: #ff343d;
+}
+
+.features .feature__icon::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    top: 0;
+    left: 0;
+    z-index: -1;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+    transition: opacity 0.2s, -webkit-transform 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s, -webkit-transform 0.2s;
+}
+
+.features .feature__icon:hover::before {
+    background: #ff343d;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.2s;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.4s;
+    transition: opacity 0.2s, -webkit-transform 0.4s;
+    transition: transform 0.4s, opacity 0.2s;
+    transition: transform 0.4s, opacity 0.2s, -webkit-transform 0.4s;
+}
+
+.features .feature__icon--technology {
+    background: url("../images/mars_feature_technology.png") center center no-repeat;
+    background-size: 60px;
+}
+
+.features .feature__icon--signal {
+    background: url("../images/mars_feature_signal.png") center center no-repeat;
+    background-size: 60px;
+}
+
+.features .feature__icon--easy {
+    background: url("../images/mars_feature_easy.png") center center no-repeat;
+    background-size: 60px;
+}
+
+.features .feature__icon--visibility {
+    background: url("../images/mars_feature_visibility.png") center center no-repeat;
+    background-size: 60px;
+}
+
+.accessories {
+    background: url("../images/accessories.jpg") center top no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.accessories__btn {
+    border: 2px solid #3b3b3b;
+    background: transparent;
+}
+
+.products {
+    background: url('../images/mars_products.jpg') 100% 0 no-repeat;
+    background-size: contain;
+    height: 50vh;
+}
+
+.products__title {
+    width: 50%;
+}
+
+.products__btn {
+    border: 2px solid #eff2f6;
+}
+
+.journey {
+    background: url("../images/mars_journey.jpg") center bottom no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.journey__title {
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.journey__btn {
+    color: #318f76;
+}
+
+.footer {
+    background: url("../images/mars_footer.jpg") center center no-repeat;
+    background-size: cover;
+    min-height: 460px;
+    padding: 15px;
+}
+
+.footer__logo {
+    background: url("../images/mars_logo.png") center center no-repeat;
+    height: 50px;
+    width: 100px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        min-height: 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 360px) {
+    .carousel {
+        background-position: left 0;
+    }
+
+    .carousel__slide {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        padding-left: 23px;
+        padding-bottom: 35px;
+    }
+
+    .carousel-indicators {
+        left: 10px;
+    }
+
+    .gallery-static-box .gallery-btn {
+        right: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .gallery-animated-box__circle {
+        height: 400px;
+        width: 400px;
+        right: -200px;
+    }
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .gallery-animated-box__circle {
+        height: 200px;
+        width: 200px;
+        right: -100px;
+    }
+
+    .accessories {
+        background-position: 100% 0;
+        background-size: 200%;
+    }
+
+    .journey {
+        padding-bottom: 70px;
+    }
+
+    .journey__title {
+        letter-spacing: 1.5px;
+    }
+}
+
+@media (max-width: 400px) {
+    h3 {
+        font-size: 1rem;
+    }
+
+    .features {
+        height: 880px;
+    }
+
+    .features__container {
+        height: 880px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 992px) {
+    .features {
+        height: 440px;
+    }
+
+    .features__container {
+        height: 440px;
+    }
+}
+
+@media (min-width: 992px) {
+    .features {
+        height: 50vh;
+    }
+
+    .features__container {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 360px) {
+    .carousel {
+        background-position: center 0;
+    }
+
+    .carousel-indicators {
+        left: 0;
+    }
+
+    .carousel__slide {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-left: 70px;
+    }
+
+    .gallery-static-box .gallery-btn {
+        right: 50px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 630px) {
+    .carousel-indicators {
+        left: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .journey {
+        padding-bottom: 90px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .journey {
+        padding-bottom: 270px;
+    }
+}
