@@ -1,11 +1,5 @@
 @import "~bootstrap/scss/bootstrap";
 
-.card__logo-test {
-  //background: url('./img/icon.png') 0 0 no-repeat;
-  height: 100px;
-  width: 100px;
-}
-
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -81,8 +75,7 @@ ul {
 }
 
 .wrap {
-  background-position: 0 center;
-  background-repeat: no-repeat;
+  background: url('../img/background.jpg') 0 center no-repeat;
 }
 
 .subtitle--padding {
@@ -151,6 +144,15 @@ ul {
 .accordion-icon {
   padding-right: 15px;
 }
+
+//.chevron-up {
+//  font-family: FontAwesome, sans-serif;
+//  color: #000000;
+//}
+//
+//.chevron-up:not(.plus)::before {
+//  content: '\f056';
+//}
 
 .carousel-item {
   padding: 20px 5px;
